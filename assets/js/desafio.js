@@ -5,25 +5,6 @@ const btnCopy = document.querySelector(".copiar");
 btnCopy.style.display = "none"
 var imagen = document.getElementById("#munheco");
 
-//Encriptar mensaje
-
-// function desaparece(){
-
-//     ;
-//     return alert("el elemento ha sido removido");
-// }
-// function eliminarElemento(munheco){
-// 	imagen = document.getElementById("#munheco");	
-// 	if (!imagen){
-// 		alert("El elemento selecionado no existe");
-// 	} else {
-// 		padre = imagen.parentNode;
-// 		padre.removeChild(imagen);
-// 	}
-// }
-
-
-
 
 btnEncriptar.onclick()= eliminarElemento(munheco);
 
@@ -98,7 +79,7 @@ function desencriptar(stringDesencriptada) {
 function btncopiar(){
 mensaje.select();
 navigator.clipboard.writeText(mensaje.value) 
-// inbesitgar navigator...
+
 mensaje.value = ""
 // alert("texto copiado")
 
