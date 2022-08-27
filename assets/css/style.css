@@ -1,0 +1,131 @@
+body{
+    background: #E9ECF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    position: relative;
+    left: 84px;
+    top:40px;
+}
+main{
+    display:flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.primer-section{
+
+    height: 500px;
+    width: 65%;
+   
+}
+
+.input-texto{
+
+    margin: 0 150px;
+    background: #E9ECF8;
+    border-color:#E9ECF8;
+    color: #0A3871;
+    font-size: large;
+}
+
+h6{
+    font-size:small;
+    position:relative;
+    top:115px;
+    left:165px;
+}
+
+.encriptar,.desencriptar{
+
+    position: relative;
+    top: 110px;
+    margin: 15px 20px;
+    left: 150px;
+    Width:200px;
+    Height: 40px;
+    border-radius: 24px;
+    font-size: x-small;
+
+}
+
+.encriptar{
+
+    background: #0A3871;
+    color:#FFFFFF ;
+}
+
+.segundo-section{
+
+    background: #FFFFFF;
+    Width:275px;
+    Height:570px;
+    border-radius: 24px;
+
+}
+
+.muneco{
+    width: 200px;
+    position: relative;
+    bottom:300px;
+    left:25px;
+    
+}
+
+h1{
+ position: relative;
+ bottom: 300px;
+ text-align: center;
+ opacity: 0.5;
+ 
+}
+
+h3{
+position: relative;
+bottom: 300px;
+text-align: center;
+font-size: medium;
+opacity: 0.5;
+
+}
+.mensaje{
+    margin: 17px;
+    border:#FFFFFF;   
+}
+
+.copiar{
+    position: relative;
+    bottom:-80px;
+    margin: 15px 40px;
+    right:5px;
+    Width:200px;
+    Height: 40px;
+    border-radius: 24px;
+    font-size: x-small;
+}
+
+@media screen and (max-width:480px){
+    header img{
+
+       position: relative;
+       left: -25px
+
+    }
+    .input-texto{
+        position: relative;
+        left: -20px;
+    }
+    .segundo-section{
+    
+        position: absolute;
+        bottom: 0;
+        top:750px;
+        left: 220px;
+               
+    
+    }  
+    
+   
+}
